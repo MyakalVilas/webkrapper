@@ -1,16 +1,188 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Admin | Om Shingare</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Hacker Portfolio</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1c1c1c;
+            color: #e1e1e1;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+            overflow-x: hidden;
+            cursor: url('https://cdn-icons-png.flaticon.com/512/2275/2275645.png'), auto;
+            padding: 0 15px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #00d9b2;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-top: 10px;
+        }
+
+        p, ul {
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+            list-style-type: none;
+            font-size: 1.2rem;
+        }
+
+        a {
+            color: #00d9b2;
+            text-decoration: none;
+            border-bottom: 1px solid #00d9b2;
+        }
+
+        a:hover {
+            color: #ff5733;
+            border-color: #ff5733;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .image {
+            width: 200px;
+            height: 250px;
+            border: 3px solid #00d9b2;
+            margin-top: 50px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        .card {
+            background-color: #2b2b2b;
+            border: 1px solid #00d9b2;
+            padding: 30px;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .card li {
+            margin: 10px 0;
+            font-size: 1.5rem;
+        }
+
+        hr {
+            border-top: 1px solid #00d9b2;
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        /* Flashing text animation */
+        .flashing {
+            animation: flash 1s infinite;
+        }
+
+        @keyframes flash {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .image {
+                width: 150px;
+                height: 200px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .card ul {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            p, ul {
+                font-size: 1rem;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    Vilas Myakal is the admin of this website 
-    Day1. I did nothing, 
-    Day2. I learn something new Today From My Buddy.
+
+    <div class="container">
+        <h1>Anonymous Hacker Portfolio</h1>
+        <h2 class="flashing">Welcome to the Dark Web</h2>
+        <!-- <div class="image">
+            <img src="image.jpeg" alt="Anonymous Hacker" class="image">
+        </div> -->
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I am a skilled hacker, cryptography expert, and software engineer with a passion for cyber security. Explore my work and projects below.</p>
+            <hr>
+            <ul>
+                <li><strong>Location:</strong> Underground Network</li>
+                <li><strong>Specialty:</strong> Penetration Testing</li>
+                <li><strong>Languages:</strong> Python, C++, JavaScript</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="card">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Encrypted Chat System</a></li>
+                <li><a href="#">DDoS Protection Algorithm</a></li>
+                <li><a href="#">Pen Testing Tools</a></li>
+            </ul>
+        </div>
+        <hr>
+        <footer style="color: #888; text-align: center; padding: 20px;">
+            <p>&copy; 2025 Anonymous Hacker. All Rights Reserved.</p>
+        </footer>
+    </div>
+
 </body>
 </html>
